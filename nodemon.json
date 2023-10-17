@@ -1,0 +1,12 @@
+{
+  "ignore": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    ".git",
+    "node_modules",
+    "**/typeDefs.gql.ts"
+  ],
+  "watch": ["./src"],
+  "exec": "vite-node ./src/index.ts",
+  "ext": "ts"
+}

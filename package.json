@@ -1,0 +1,30 @@
+{
+  "name": "ts-to-gql",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aleem Isiaka",
+  "license": "ISC",
+  "resolutions": {},
+  "dependencies": {
+    "@apollo/server": "^4.9.4",
+    "apollo-server": "^3.12.1",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.10",
+    "graphql": "^16.8.1",
+    "vite-node": "^0.34.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "@types/express": "^4.17.19",
+    "@types/fs-extra": "^11.0.2",
+    "@types/node": "^20.8.6",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  }
+}

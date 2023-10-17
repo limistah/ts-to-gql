@@ -1,0 +1,4 @@
+type Query {
+  books(input: Filter): [Book]
+  book(input: Filter): Book
+}
