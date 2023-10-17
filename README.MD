@@ -3,13 +3,7 @@
 
 This project reads through all the files inside of src, monitors the interfaces and parse them to graphql types IF they interface has a `__kind` field
 
----
-```go
-
-```
----
-
-To run:
+### To run
 
 ```
 yarn
