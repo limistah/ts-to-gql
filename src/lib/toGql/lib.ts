@@ -102,8 +102,10 @@ export const toGql = (filePath: string) => {
     .match(/interface([a-zA-Z_]+)[{](.|\n)*?[}]/gm);
 
   interfaceBlocks?.forEach((block) => {
-    const def = generateDefs(block);
-    defs = `${defs}${def}`;
+    if (block.includes("__kind")) {
+      const def = generateDefs(block);
+      defs = `${defs}${def}`;
+    }
   });
   return defs;
 };
