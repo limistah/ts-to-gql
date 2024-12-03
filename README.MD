@@ -11,5 +11,3 @@ yarn
 yarn start
 ```
 Go to: `https://localhost:4000`
-
-
